@@ -11,6 +11,9 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
+  & + div {
+    margin-top: 8px;
+  }
   input {
     background: transparent;
     border: 0;
@@ -18,10 +21,6 @@ export const Container = styled.div`
 
     &::placeholder {
       color: #666360;
-    }
-
-    & + input {
-      margin-top: 8px;
     }
   }
 
