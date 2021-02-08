@@ -10,7 +10,7 @@ import logoImg from '../../assets/logo.svg';
 import Input from '../../components/input';
 import Button from '../../components/button';
 
-import { Container, Content, Background } from './style';
+import { Container, Content, Background } from './styles';
 
 const SignUp: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
